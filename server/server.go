@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/db"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/db"
+	"github.com/remidinishanth/gost/util"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/spf13/viper"

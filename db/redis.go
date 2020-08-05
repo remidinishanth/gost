@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-redis/redis"
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/models"
+	"github.com/remidinishanth/gost/models"
 	"github.com/labstack/gommon/log"
 	"gopkg.in/cheggaaa/pb.v1"
 )

@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/knqyf263/gost/config"
-	"github.com/knqyf263/gost/models"
+	"github.com/remidinishanth/gost/config"
+	"github.com/remidinishanth/gost/models"
 )
 
 func DiffRedhat(old, new *models.RedhatCVE, config config.RedhatWatchCve) (body string) {

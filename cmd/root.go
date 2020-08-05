@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/util"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

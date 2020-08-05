@@ -5,8 +5,8 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/jinzhu/gorm"
-	"github.com/knqyf263/gost/models"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/models"
+	"github.com/remidinishanth/gost/util"
 	pb "gopkg.in/cheggaaa/pb.v1"
 )
 

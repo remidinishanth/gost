@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/models"
+	"github.com/remidinishanth/gost/models"
 )
 
 // DB is interface for a database driver

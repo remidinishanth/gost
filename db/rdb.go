@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/jinzhu/gorm"
-	"github.com/knqyf263/gost/models"
+	"github.com/remidinishanth/gost/models"
 	sqlite3 "github.com/mattn/go-sqlite3"
 
 	// Required MySQL.  See http://jinzhu.me/gorm/database.html#connecting-to-a-database

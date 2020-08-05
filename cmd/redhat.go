@@ -14,8 +14,8 @@ import (
 // redhatCmd represents the redhat command
 var redHatCmd = &cobra.Command{
 	Use:   "redhat",
-	Short: "Fetch the CVE information from knqyf263/vuln-list",
-	Long:  `Fetch the CVE information from knqyf263/vuln-list`,
+	Short: "Fetch the CVE information from remidinishanth/vuln-list",
+	Long:  `Fetch the CVE information from remidinishanth/vuln-list`,
 	RunE:  fetchRedHat,
 }
 

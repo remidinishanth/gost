@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/db"
-	"github.com/knqyf263/gost/server"
+	"github.com/remidinishanth/gost/db"
+	"github.com/remidinishanth/gost/server"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

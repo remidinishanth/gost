@@ -9,7 +9,7 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/spf13/viper"
 
-	"github.com/knqyf263/gost/config"
+	"github.com/remidinishanth/gost/config"
 	"github.com/parnurzeal/gorequest"
 )
 

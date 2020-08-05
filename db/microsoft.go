@@ -10,8 +10,8 @@ import (
 	strip "github.com/grokify/html-strip-tags-go"
 	"github.com/inconshreveable/log15"
 	"github.com/jinzhu/gorm"
-	"github.com/knqyf263/gost/models"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/models"
+	"github.com/remidinishanth/gost/util"
 )
 
 // GetMicrosoft :
@@ -19,7 +19,7 @@ func (r *RDBDriver) GetMicrosoft(cveID string) *models.MicrosoftCVE {
 	c := models.MicrosoftCVE{}
 
 	var errs gorm.Errors
-	errs = errs.Add(r.conn.Where(&models.Microsoft{CveID: cveID}).First(&c).Error)
+	errs = errs.Add(r.conn.Where(&models.MicrosoftCVE{CveID: cveID}).First(&c).Error)
 	errs = errs.Add(r.conn.Model(&c).Related(&c.MicrosoftProductStatuses).Error)
 	errs = errs.Add(r.conn.Model(&c).Related(&c.Impact).Error)
 	errs = errs.Add(r.conn.Model(&c).Related(&c.Severity).Error)

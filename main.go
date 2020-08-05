@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/knqyf263/gost/cmd"
+	"github.com/remidinishanth/gost/cmd"
 )
 
 // Revision of Git

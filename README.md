@@ -1,4 +1,5 @@
 # gost (go-security-tracker)
+Updated
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/remidinishanth/gost/blob/master/LICENSE)
 
 `gost` builds a local copy of Security Tracker(Redhat/Debian/Microsoft).   

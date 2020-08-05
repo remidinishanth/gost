@@ -1,4 +1,4 @@
-module github.com/knqyf263/gost
+module github.com/remidinishanth/gost
 
 go 1.13
 

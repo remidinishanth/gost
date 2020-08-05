@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/knqyf263/gost/models"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/models"
+	"github.com/remidinishanth/gost/util"
 )
 
 // https://security-tracker.debian.org/tracker/data/json

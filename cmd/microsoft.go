@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/db"
-	"github.com/knqyf263/gost/fetcher"
+	"github.com/remidinishanth/gost/db"
+	"github.com/remidinishanth/gost/fetcher"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

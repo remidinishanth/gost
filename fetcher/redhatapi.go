@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/knqyf263/gost/models"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/models"
+	"github.com/remidinishanth/gost/util"
 )
 
 // ListAllRedhatCves returns the list of all CVEs from RedHat API

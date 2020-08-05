@@ -6,11 +6,11 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/inconshreveable/log15"
 
-	"github.com/knqyf263/gost/config"
-	"github.com/knqyf263/gost/db"
-	"github.com/knqyf263/gost/fetcher"
-	"github.com/knqyf263/gost/notifier"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/config"
+	"github.com/remidinishanth/gost/db"
+	"github.com/remidinishanth/gost/fetcher"
+	"github.com/remidinishanth/gost/notifier"
+	"github.com/remidinishanth/gost/util"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

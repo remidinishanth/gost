@@ -6,8 +6,8 @@ import (
 	"regexp"
 
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/models"
-	"github.com/knqyf263/gost/util"
+	"github.com/remidinishanth/gost/models"
+	"github.com/remidinishanth/gost/util"
 	"github.com/pkg/errors"
 	"github.com/tealeg/xlsx"
 )

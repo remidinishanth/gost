@@ -10,7 +10,7 @@ import (
 	trivyUtils "github.com/aquasecurity/trivy/pkg/utils"
 	types "github.com/aquasecurity/trivy/pkg/vulnsrc/redhat"
 	"github.com/inconshreveable/log15"
-	"github.com/knqyf263/gost/models"
+	"github.com/remidinishanth/gost/models"
 	"golang.org/x/xerrors"
 )
 
